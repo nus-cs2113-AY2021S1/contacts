@@ -592,7 +592,7 @@ public class Contacts1 {
      *
      * @param phone to be validated
      */
-    private static boolean isValidPhone(String phone) {
+    private static boolean  isValidPhone(String phone) {
         return !phone.isEmpty();
         //TODO: implement a better validation
     }
