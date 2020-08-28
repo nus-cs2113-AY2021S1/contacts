@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-
+//Messy code
 public class Contacts0 {
 
     public static final int MAX_CAPACITY = 100;
