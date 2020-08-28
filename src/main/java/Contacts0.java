@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Minor change for pull request
 
 public class Contacts0 {
 
