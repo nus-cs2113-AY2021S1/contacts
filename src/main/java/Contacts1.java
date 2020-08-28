@@ -242,6 +242,7 @@ public class Contacts1 {
      *
      * @param commandArgs full command args string from the user
      * @return feedback display message for the operation result
+     * this is just a test!
      */
     private static String executeAddPerson(String commandArgs) {
         // try decoding a person from the raw args
