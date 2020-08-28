@@ -12,7 +12,7 @@
 || 	Example: list
 || 
 || clear: Clears all contacts.
-|| 	Example: clear
+|| 	Example: clea
 || 
 || exit: Exits the program.
 || 	Example: exit
