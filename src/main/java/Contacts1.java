@@ -593,8 +593,16 @@ public class Contacts1 {
      * @param phone to be validated
      */
     private static boolean isValidPhone(String phone) {
-        return !phone.isEmpty();
-        //TODO: implement a better validation
+        if (phone.isEmpty()){
+            return false;
+        }
+
+        try {
+            int phoneNumber = Integer.parseInt(phone);
+            return (phoneNumber > 79999999 && phoneNumber < 100000000);
+        } catch (NumberFormatException exception) {
+            return false;
+        }
     }
 
     /**
