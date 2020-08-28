@@ -593,7 +593,8 @@ public class Contacts1 {
      * @param phone to be validated
      */
     private static boolean isValidPhone(String phone) {
-        return !phone.isEmpty();
+
+        return !phone.isEmpty() && phone.length() == 8;
         //TODO: implement a better validation
     }
 
